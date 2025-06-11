@@ -50,11 +50,30 @@ Contiene las carpetas de modules y routes, mismas las cuales sirven para el Back
 ## 📁 Estructura del Backend
 
 private/
-├── modules/
-├── routes/
-└── Conexion.js
+├── Conexion.js           # Archivo que configura la conexión a la base de datos
+├── modules/              # Contiene la lógica de negocio (modelos, controladores, servicios)
+└── routes/               # Define las rutas de la API o servidor
+
+Mongoose servirá para conectar MongoDB a tu proyecto.
 
 
+>⚠️ **Importante**: Este proyecto necesita que **MongoDB esté instalado y ejecutándose** en tu sistema.
 
+Puedes verificar que está corriendo ejecutando:
 
+```bash
+mongod
+```
+
+Esto levantará el servidor de MongoDB. Si ves mensajes indicando que está “listening on port 27017”, todo va bien.
+
+Para entrar a la consola interactiva de MongoDB y hacer consultas, abre otra terminal y ejecuta:
+
+```bash
+mongosh
+```
+ℹ️ Si no tienes MongoDB instalado, descárgalo desde:
+👉 https://www.mongodb.com/try/download/community
+
+---
 
