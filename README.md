@@ -1,4 +1,4 @@
-# create-mi-proyecto
+# create strucdb
 
 Generador de proyectos Node.js con estructura base, ideal para comenzar rápidamente con Express.
 
@@ -7,7 +7,7 @@ Generador de proyectos Node.js con estructura base, ideal para comenzar rápidam
 Este paquete crea una estructura básica para un proyecto Node.js, incluyendo:
 
 - Un archivo `index.js` configurado con Express
-- Instalación automática de dependencias como `express`
+- Instalación automática de dependencias como `express`, `mongoose`, `path` y `open`
 - Carpetas `public/` y `private/` creadas automáticamente
 
 ## 📁 Estructura del proyecto
@@ -38,3 +38,21 @@ Express servirá esta carpeta automáticamente usando:
 
 ```js
 app.use(express.static(path.join(__dirname, 'public')));
+```
+
+css
+Copiar
+Editar
+
+### 📂 `private/`
+
+Contiene las carpetas de modules y routes, mismas las cuales sirven para el Backend del proyecto
+
+## 📁 Estructura del Backend
+
+private/
+├── modules/
+├── routes/
+└── Conexion.js
+
+
