@@ -37,4 +37,4 @@ Contiene archivos públicos que pueden ser servidos directamente por el servidor
 Express servirá esta carpeta automáticamente usando:
 
 ```js
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
