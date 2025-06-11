@@ -30,10 +30,10 @@ De igual manera contiene el index.html que es la primer pagina que se abre cuand
 ## 📁 Estructura del Frontend
 
 public/
-├── pages/ # Resto de paginas que utilizaras(HTML)
-├── styles/ # Estilos para las paginas(CSS)
-├── js/ # Scripts de las paginas(JS)
-└── index.html
+├── pages/            # Páginas HTML públicas
+│   ├── styles/           # Hojas de estilo CSS
+│   └── js/               # Scripts del cliente (JavaScript del navegador)
+└── index.html    # Página principal
 
 Express servirá esta carpeta automáticamente usando:
 
