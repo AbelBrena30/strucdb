@@ -7,12 +7,12 @@ Generador de proyectos Node.js con estructura base, ideal para comenzar rápidam
 Este paquete crea una estructura básica para un proyecto Node.js, incluyendo:
 
 - Un archivo `index.js` configurado con Express
-- Instalación automática de dependencias como `express`, `mongoose`, `path` y `open`
+- Instalación automática de dependencias como `express`, `mongoose`, `path` y `open`.
 - Carpetas `public/` y `private/` creadas automáticamente
 
 ## 📁 Estructura del proyecto
 
-mi-proyecto/
+strucdb/
 ├── index.js
 ├── package.json
 ├── package.lock.json
@@ -21,18 +21,20 @@ mi-proyecto/
 └── private/
 
 
-css
-Copiar
-Editar
 
 ### 📂 `public/`
 
-Contiene archivos públicos que pueden ser servidos directamente por el servidor. Por ejemplo:
+Contiene las carpetas de pages,styles y js, mismas las cuales sirven para el Frontend del proyecto.
+De igual manera contiene el index.html que es la primer pagina que se abre cuando el proyecto se ejecuta.
 
-- HTML
-- CSS
-- JavaScript del cliente
-- Imágenes
+## 📁 Estructura del Frontend
+
+public/
+├── pages/
+#   Resto de paginas que utilizaras.
+├── styles/
+├── js/
+└── index.html
 
 Express servirá esta carpeta automáticamente usando:
 
@@ -40,9 +42,7 @@ Express servirá esta carpeta automáticamente usando:
 app.use(express.static(path.join(__dirname, 'public')));
 ```
 
-css
-Copiar
-Editar
+
 
 ### 📂 `private/`
 
@@ -54,5 +54,8 @@ private/
 ├── modules/
 ├── routes/
 └── Conexion.js
+
+
+
 
 
