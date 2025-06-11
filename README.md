@@ -12,7 +12,7 @@ Este paquete crea una estructura básica para un proyecto Node.js, incluyendo:
 
 ## 📁 Estructura del proyecto
 
-strucdb/
+strucdb/  
 ├── index.js  
 ├── package.json  
 ├── package.lock.json  
@@ -31,7 +31,7 @@ De igual manera contiene el index.html que es la primer pagina que se abre cuand
 
 ### 📁 Estructura del Frontend
 
-public/
+public/  
 ├── pages/            # Páginas HTML públicas  
 │   ├── styles/           # Hojas de estilo CSS  
 │   └── js/               # Scripts del cliente (JavaScript del navegador)  
@@ -50,7 +50,7 @@ Contiene las carpetas de modules y routes, mismas las cuales sirven para el Back
 
 ### 📁 Estructura del Backend
 
-private/
+private/  
 ├── Conexion.js           # Archivo que configura la conexión a la base de datos  
 ├── modules/              # Contiene la lógica de negocio (modelos, controladores, servicios)  
 └── routes/               # Define las rutas de la API o servidor
