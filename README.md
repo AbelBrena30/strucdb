@@ -1,4 +1,5 @@
 # create strucdb
+# Nombre del proyecto 🧻
 
 Generador de proyectos Node.js con estructura base, ideal para comenzar rápidamente con Express.
 
